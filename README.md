@@ -3,3 +3,4 @@
 Это пример приложения для
 [*Ruby on Rails Tutorial*](http://railstutorial.org/)
 by [Майкл Хартл](http://michaelhartl.com/).
+Моё первое поноценное приложение на RoR
