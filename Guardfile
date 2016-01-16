@@ -10,9 +10,7 @@
 require 'active_support/inflector'
 
 guard 'rspec', all_after_pass: false do
-  .
-  .
-  .
+  (
   watch('config/routes.rb')
   # Custom Rails Tutorial specs
   watch(%r{^app/controllers/(.+)_(controller)\.rb$}) do |m|
@@ -29,7 +27,5 @@ guard 'rspec', all_after_pass: false do
   watch(%r{^app/controllers/sessions_controller\.rb$}) do |m|
     "spec/requests/authentication_pages_spec.rb"
   end
-  .
-  .
-  .
+  )
 end
